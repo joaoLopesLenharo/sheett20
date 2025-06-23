@@ -620,7 +620,7 @@ with col_rec3:
 # Exibir barras de recursos
 criar_barra_recursos("Vida", st.session_state.ficha["recursos"]["vida"]["atual"], st.session_state.ficha["recursos"]["vida"]["maximo"], "#ff0000")
 criar_barra_recursos("Mana", st.session_state.ficha["recursos"]["mana"]["atual"], st.session_state.ficha["recursos"]["mana"]["maximo"], "#0000ff")
-criar_barra_recursos("Prana", st.session_state.ficha["recursos"]["prana"]["atual"], st.session_state.ficha["recursos"]["prana"]["maximo"], "#00ff00")
+criar_barra_recursos("Prana", st.session_state.ficha["recursos"]["prana"]["atual"], st.session_state.ficha["recursos"]["prana"]["maximo"], "#FFFF00")
 
 # Recursos Adicionais
 st.subheader("Recursos Adicionais")
